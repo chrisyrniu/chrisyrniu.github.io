@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="https://chrisyrniu.github.io/files/yaru_niu.jpeg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://chrisyrniu.github.io/files/yaru_niu.jpeg?raw=true" alt="Photo" style="width: 420px;"/> 
 </p>
 
 Hi! My name is Yaru (Chris) Niu. I am currently pursing my Masters in Electrical and Computer Engineering at Georgia Tech. I am working with [Rohan Paleja](https://rohanpaleja.com/) at [CORE Lab](https://core-robotics.gatech.edu/) under Prof. Matthew Gombolay. My research interests include human-robot interaction, reinforcement learning and multi-agent coordination.
