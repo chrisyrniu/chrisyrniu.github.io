@@ -12,4 +12,4 @@ redirect_from:
   <img src="https://chrisyrniu.github.io/files/yaru_niu.jpeg?raw=true" alt="Photo" style="width: 420px;"/> 
 </p>
 
-Welcome to [Yaru's personal website](https://www.yaruniu.com/)!
+Please visit Yaru's personal website [here](https://www.yaruniu.com/)!
