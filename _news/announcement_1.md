@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-05-06
 inline: true
 ---
 
-A simple inline announcement.
+I graduate from Georgia Tech. Thank you, GT. Check out my [MS Thesis](https://chrisyrniu.github.io/assets/pdf/MS_Thesis_Yaru_Niu.pdf).
