@@ -4,4 +4,4 @@ date: 2022-04-12
 inline: true
 ---
 
-One paper is accepted at [RSS 2022](https://roboticsconference.org/)!
+Our work [Interpretable Continuous Control Tree (ICCT)](https://chrisyrniu.github.io/assets/pdf/rss_2022_icct.pdf) is accepted to [RSS 2022](https://roboticsconference.org/)!
