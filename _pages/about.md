@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research intern at [Robotics and Autonomous Driving Lab](http://research.baidu.com/Research_Areas/index-view?id=58) of Baidu Research, and an incoming PhD student at [CMU Safe AI Lab](https://safeai-lab.github.io/). This website is under consruction.
+I am a research intern at [Robotics and Autonomous Driving Lab](http://research.baidu.com/Research_Areas/index-view?id=58) of Baidu Research, and an incoming PhD student at [CMU Safe AI Lab](https://safeai-lab.github.io/). This website is under construction.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
