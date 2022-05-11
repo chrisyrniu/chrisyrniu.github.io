@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Notation * denotes co-first authors.
-years: [2021]
+years: [2022, 2021]
 nav: true
 ---
 <!-- _pages/publications.md -->
