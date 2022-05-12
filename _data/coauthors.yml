@@ -1,6 +1,14 @@
 "Paleja":
-  - firstname: ["Rohan", "Rohan*", "R."]
+  - firstname: ["Rohan", "Rohan", "R."]
     url: https://rohanpaleja.com/
+
+"Paleja*":
+  - firstname: ["Rohan", "Rohan", "R."]
+    url: https://rohanpaleja.com/
+
+"Silva":
+  - firstname: ["Andrew", "A."]
+    url: https://www.andrew-silva.com/
 
 "Gombolay":
   - firstname: ["Matthew", "M."]
