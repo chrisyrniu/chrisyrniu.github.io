@@ -17,7 +17,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a research intern at [Robotics and Autonomous Driving Lab](http://research.baidu.com/Research_Areas/index-view?id=58) of Baidu Research, and an incoming PhD student at [CMU Safe AI Lab](https://safeai-lab.github.io/). This website is under construction.
+Hi! I am a research intern at the [Robotics and Autonomous Driving Lab](http://research.baidu.com/Research_Areas/index-view?id=58) of Baidu Research, and an incoming PhD student at [CMU Safe AI Lab](https://safeai-lab.github.io/). I received an M.S. in Electrical and Computer Engineering at [Georgia Tech](https://www.gatech.edu/) (GaTech), and a B.E. in Intelligence Science and Technology at [South China University of Technology](https://www.scut.edu.cn/en/) (SCUT). I have had the fortune to conduct research with amazing advisors, including [Dr. Liangjun Zhang](https://www.cs.unc.edu/~zlj/) (Baidu Research), [Prof. Matthew Gombolay](https://core-robotics.gatech.edu/people/matthew-gombolay/) (GaTech), [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/) (Berkeley), [Prof. Zhijun Zhang](https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en) (SCUT), and [Prof. Mohammad Al Faruque](https://aicps.eng.uci.edu/people-2/) (UC Irvine).
+
+My research goal is to build methodologies for collaborative, interpretable, and reliable intelligent robotic systems that can interact with complex environments (including humans) around them. Thus, my research interest lies at the intersection of robotics and machine learning, and their applications in multi-agent coordination, autonomous driving, and human-robot interaction. 
+
+My Chinese name is 牛雅儒 (Niu-Ya-Ru), where my first name (雅儒) can be interpreted as a scholar in elegant taste by [ancient Chinese](https://baike.baidu.hk/item/%E9%9B%85%E5%84%92/5817490).
+
+This website is under construction.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
