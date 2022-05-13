@@ -13,3 +13,31 @@
 "Gombolay":
   - firstname: ["Matthew", "M."]
     url: https://core-robotics.gatech.edu/people/matthew-gombolay/
+
+"Tang":
+  - firstname: ["Chen", "C."]
+    url: https://chentangmark.github.io/
+
+"Tang*":
+  - firstname: ["Chen", "C."]
+    url: https://chentangmark.github.io/
+
+"Choi":
+  - firstname: ["Chiho", "C."]
+    url: https://chihochoi.github.io/
+
+"Tomizuka":
+  - firstname: ["Masayoshi", "M."]
+    url: https://me.berkeley.edu/people/masayoshi-tomizuka/
+
+"Zhan":
+  - firstname: ["Wei", "W."]
+    url: https://zhanwei.site/
+
+"Chernova":
+  - firstname: ["Sonia", "S."]
+    url: https://faculty.cc.gatech.edu/~chernova/
+
+"Howard":
+  - firstname: ["Ayanna", "A."]
+    url: https://en.wikipedia.org/wiki/Ayanna_Howard

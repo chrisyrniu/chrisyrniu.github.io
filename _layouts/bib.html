@@ -17,62 +17,133 @@
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
           <div class="author">
-          {%- for author in entry.author_array -%}
-            {%- assign author_is_self = false -%}
-            {%- if author.last contains '*' %}
-              {%- assign co_first_last_name = site.scholar.last_name | append: "*" -%}
-            {%- else -%}
-              {%- assign co_first_last_name = site.scholar.last_name -%}
-            {%- endif -%}
-            {%- if co_first_last_name == author.last %}
-              {%- if site.scholar.first_name contains author.first -%}
-                {%- assign author_is_self = true -%}
-              {%- endif -%}
-            {%- endif -%}
-            {%- assign coauthor_url = nil -%}
-            {%- if site.data.coauthors[author.last] -%}
-              {%- for coauthor in site.data.coauthors[author.last] -%}
-                {%- if coauthor.firstname contains author.first -%}
-                  {%- assign coauthor_url = coauthor.url -%}
-                  {%- break -%}
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-            
-            {%- if forloop.length == 1 -%}
-              {%- if author_is_self %}
-                <em><b>{{author.first}} {{author.last}}</b></em>
+          {%- if entry.type == "mythesis" -%}
+            <!-- MyThesis -->
+            {%- for author in entry.author_array -%}
+              {%- assign author_is_self = false -%}
+              {%- if author.last contains '*' %}
+                {%- assign co_first_last_name = site.scholar.last_name | append: "*" -%}
               {%- else -%}
-                {{author.first}} {{author.last}}
+                {%- assign co_first_last_name = site.scholar.last_name -%}
               {%- endif -%}
-            {%- else -%}
-              {%- unless forloop.last -%}
-                {% if author_is_self %}
-                  <em><b>{{author.first}} {{author.last}}</b></em>,&nbsp;
+              {%- if co_first_last_name == author.last %}
+                {%- if site.scholar.first_name contains author.first -%}
+                  {%- assign author_is_self = true -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- assign coauthor_url = nil -%}
+              {%- if site.data.coauthors[author.last] -%}
+                {%- for coauthor in site.data.coauthors[author.last] -%}
+                  {%- if coauthor.firstname contains author.first -%}
+                    {%- assign coauthor_url = coauthor.url -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+              
+              {%- if forloop.length == 1 -%}
+                {%- if author_is_self %}
+                  <em><b>{{author.first}} {{author.last}}</b></em>
                 {%- else -%}
-                  {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
-                  {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
-                  {%- endif -%}
+                  {{author.first}} {{author.last}}
                 {%- endif -%}
               {%- else -%}
-                {% if author_is_self -%}
-                  and <em><b>{{author.first}} {{author.last}}</b></em>
-                {% else -%}
-                  {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- if forloop.first -%}
+                  <!-- Thesis Author -->
+                  {% if author_is_self %}
+                    <em><b>{{author.first}} {{author.last}}</b></em><br>Committee:&nbsp;
+                  {%- else -%}
+                    {% if coauthor_url -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><br>Committee:&nbsp;
+                    {%- else -%}
+                      {{author.first}} {{author.last}}<br>Committee:&nbsp;
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- elsif forloop.last -%}
+                  <!-- Committee Member -->
+                  {% if author_is_self -%}
+                    and <em><b>{{author.first}} {{author.last}}</b></em>
                   {% else -%}
-                    and {{author.first}} {{author.last}}
+                    {%- if coauthor_url -%}
+                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    {% else -%}
+                      and {{author.first}} {{author.last}}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- else -%}
+                  <!-- Committee Member -->
+                  {% if author_is_self %}
+                    <em><b>{{author.first}} {{author.last}}</b></em>,&nbsp;
+                  {%- else -%}
+                    {% if coauthor_url -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    {%- else -%}
+                      {{author.first}} {{author.last}},&nbsp;
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
-              {%- endunless -%}
-            {%- endif -%}
-          {%- endfor %}
+              {%- endif -%}
+            {%- endfor %}
+          {%- else %}
+          <!-- Non-Thesis -->
+            {%- for author in entry.author_array -%}
+              {%- assign author_is_self = false -%}
+              {%- if author.last contains '*' %}
+                {%- assign co_first_last_name = site.scholar.last_name | append: "*" -%}
+              {%- else -%}
+                {%- assign co_first_last_name = site.scholar.last_name -%}
+              {%- endif -%}
+              {%- if co_first_last_name == author.last %}
+                {%- if site.scholar.first_name contains author.first -%}
+                  {%- assign author_is_self = true -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- assign coauthor_url = nil -%}
+              {%- if site.data.coauthors[author.last] -%}
+                {%- for coauthor in site.data.coauthors[author.last] -%}
+                  {%- if coauthor.firstname contains author.first -%}
+                    {%- assign coauthor_url = coauthor.url -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
+              
+              {%- if forloop.length == 1 -%}
+                {%- if author_is_self %}
+                  <em><b>{{author.first}} {{author.last}}</b></em>
+                {%- else -%}
+                  {{author.first}} {{author.last}}
+                {%- endif -%}
+              {%- else -%}
+                {%- unless forloop.last -%}
+                  {% if author_is_self %}
+                    <em><b>{{author.first}} {{author.last}}</b></em>,&nbsp;
+                  {%- else -%}
+                    {% if coauthor_url -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    {%- else -%}
+                      {{author.first}} {{author.last}},&nbsp;
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- else -%}
+                  {% if author_is_self -%}
+                    and <em><b>{{author.first}} {{author.last}}</b></em>
+                  {% else -%}
+                    {%- if coauthor_url -%}
+                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    {% else -%}
+                      and {{author.first}} {{author.last}}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endunless -%}
+              {%- endif -%}
+            {%- endfor %}
+          {%- endif -%}
           </div>
-
           <!-- Journal/Book title and date -->
           {% if entry.type == "article" -%}
+            {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+          {%- elsif entry.type == "mythesis" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
