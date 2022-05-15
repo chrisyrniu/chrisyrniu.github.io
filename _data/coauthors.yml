@@ -41,3 +41,11 @@
 "Howard":
   - firstname: ["Ayanna", "A."]
     url: https://en.wikipedia.org/wiki/Ayanna_Howard
+
+"Zhang":
+  - firstname: ["Zhijun"]
+    url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
+
+"Zhang*":
+  - firstname: ["Zhijun"]
+    url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
