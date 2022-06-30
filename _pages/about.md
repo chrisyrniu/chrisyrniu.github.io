@@ -26,7 +26,7 @@ My Chinese name is 牛雅儒 (Niu-Ya-Ru), where my first name (雅儒) can be in
 
 <!-- [CV (May 2022)](https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf)&emsp;/&emsp;[Google Scholar](https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao)&emsp;/&emsp;[Twitter](https://twitter.com/yaru_niu)&emsp;/&emsp;[Github](https://github.com/chrisyrniu)&emsp;/&emsp;[Linkedin](https://www.linkedin.com/in/yaru-niu-2b847b169/) -->
 
-<p align="center"><a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">CV (May 2022)</a>&emsp;/
+<p align="center"><a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">CV (June 2022)</a>&emsp;/
 &emsp;<a href="https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao">Google Scholar</a>&emsp;/
 &emsp;<a href="https://twitter.com/yaru_niu">Twitter</a>&emsp;/
 &emsp;<a href="https://github.com/chrisyrniu">Github</a>&emsp;/
