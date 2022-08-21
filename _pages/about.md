@@ -4,14 +4,13 @@ title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 # subtitle: yarun@andrew.cmu.edu
-
 profile:
   align: right
   image: yaru.jpg
   address: >
     <p align="center"><a href="mailto:yarun@andrew.cmu.edu">yarun@andrew.cmu.edu</a></p>
-    <p align="center">1195 Bordeaux Drive</p>
-    <p align="center">Sunnyvale, CA 94089</p>
+    <p align="center">5000 Forbes Avenue</p>
+    <p align="center">Pittsburgh, PA 15213</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
