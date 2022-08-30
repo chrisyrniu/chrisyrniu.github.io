@@ -153,15 +153,14 @@
           {%- if entry.year -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
-          {%- if entry.note -%}
-            {%- capture entrynote -%}{{ " " }}{{entry.note}}{%- endcapture -%}
-          {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
+            {{ periodical | strip }}
             {%- if entry.note -%}
-              {{ periodical | strip }}{{ " " }}{{entry.note}}
-            {%- else -%}
-              {{ periodical | strip }}
+              {{ " " }}{{entry.note}}
+            {%- endif -%}
+            {%- if entry.award -%}
+              <br><b style="color:red"><font face = "Times New Roman">{{entry.award}}</font></b>
             {%- endif -%}
           </div>
         {%- endif %}
