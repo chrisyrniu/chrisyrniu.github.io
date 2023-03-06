@@ -1,7 +1,3 @@
-"Zhang+":
-  - firstname: ["Liangjun"]
-    url: https://www.cs.unc.edu/~zlj/
-
 "Zhu":
   - firstname: ["Jiacheng", "J."]
     url: https://jiachengzhuml.github.io/
@@ -77,6 +73,8 @@
 "Zhang":
   - firstname: ["Zhijun"]
     url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
+  - firstname: ["Liangjun"]
+    url: https://www.cs.unc.edu/~zlj/
 
 "Zhang*":
   - firstname: ["Zhijun"]
