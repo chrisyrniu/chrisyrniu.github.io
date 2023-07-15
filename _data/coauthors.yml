@@ -83,3 +83,27 @@
 "Kong":
   - firstname: ["Lingdong"]
     url: http://ldkong.com/
+
+"Chen":
+  - firstname: ["Letian"]
+    url: http://www.letianchen.me/
+
+"Li":
+  - firstname: ["Zhaoxin"]
+    url: https://core-robotics.gatech.edu/people/zhaoxin-li/
+
+"Zhang":
+  - firstname: ["Songan"]
+    url: https://scholar.google.com/citations?user=YnSPFY8AAAAJ&hl=en
+
+"Tseng":
+  - firstname: ["Hongtei Eric"]
+    url: https://www.nae.edu/248787/Dr-Hongtei-E-Tseng
+
+"Wang":
+  - firstname: ["Yan"]
+    url: https://scholar.google.com/citations?hl=en&user=PCA9jesAAAAJ&view_op=list_works&sortby=pubdate
+
+"Nageshrao":
+  - firstname: ["Subramanya Prasad"]
+    url: https://scholar.google.com/citations?user=ujb09agAAAAJ&hl=en
