@@ -21,7 +21,7 @@ Hi! I am a second-year PhD student at [CMU Safe AI Lab](https://safeai-lab.githu
 
 My research goal is to build methodologies for collaborative, interpretable, and reliable intelligent robotic systems that can interact with complex environments (including humans) around them. Thus, my research interest lies at the intersection of robotics and machine learning, and their applications in multi-agent coordination, autonomous driving, and human-robot interaction. 
 
-My Chinese name is 牛雅儒 (Niu-Ya-Ru), where my first name (雅儒) can be interpreted as a scholar in elegant taste by [ancient Chinese](https://baike.baidu.hk/item/%E9%9B%85%E5%84%92/5817490).
+My Chinese name is 牛雅儒 (Niu-Ya-Ru), where my first name (雅儒) means a scholar with elegance in [ancient Chinese](https://baike.baidu.hk/item/%E9%9B%85%E5%84%92/5817490).
 
 <!-- [CV (May 2022)](https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf)&emsp;/&emsp;[Google Scholar](https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao)&emsp;/&emsp;[Twitter](https://twitter.com/yaru_niu)&emsp;/&emsp;[Github](https://github.com/chrisyrniu)&emsp;/&emsp;[Linkedin](https://www.linkedin.com/in/yaru-niu-2b847b169/) -->
 
