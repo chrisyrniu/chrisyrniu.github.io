@@ -97,12 +97,18 @@
 "Zhang*":
   - firstname: ["Zhijun"]
     url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
+  - firstname: ["Zeqing"]
+    url: https://benjizhang.github.io/
 
 "Kong":
   - firstname: ["Lingdong"]
     url: http://ldkong.com/
 
 "Jin":
+  - firstname: ["Shiyu"]
+    url: https://scholar.google.com/citations?user=GdYgso8AAAAJ&hl=en
+
+"Jin*":
   - firstname: ["Shiyu"]
     url: https://scholar.google.com/citations?user=GdYgso8AAAAJ&hl=en
 
