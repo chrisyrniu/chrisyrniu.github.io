@@ -1,7 +1,3 @@
-"Zhang":
-  - firstname: ["Yuyou"]
-    url: https://zhangyuyou-10.github.io/
-
 "Liu":
   - firstname: ["Xingyu"]
     url: https://xingyul.github.io/
@@ -91,6 +87,8 @@
     url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
   - firstname: ["Liangjun"]
     url: https://www.cs.unc.edu/~zlj/
+  - firstname: ["Yuyou"]
+    url: https://zhangyuyou-10.github.io/
 
 "Zhang*":
   - firstname: ["Zhijun"]

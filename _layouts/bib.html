@@ -62,12 +62,12 @@
                 {%- elsif forloop.last -%}
                   <!-- Committee Member -->
                   {% if author_is_self -%}
-                    and <em><b>{{author.first}} {{author.last}}</b></em>
+                    <em><b>{{author.first}} {{author.last}}</b></em>
                   {% else -%}
                     {%- if coauthor_url -%}
-                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                     {% else -%}
-                      and {{author.first}} {{author.last}}
+                      {{author.first}} {{author.last}}
                     {%- endif -%}
                   {%- endif -%}
                 {%- else -%}
@@ -127,12 +127,12 @@
                   {%- endif -%}
                 {%- else -%}
                   {% if author_is_self -%}
-                    and <em><b>{{author.first}} {{author.last}}</b></em>
+                    <em><b>{{author.first}} {{author.last}}</b></em>
                   {% else -%}
                     {%- if coauthor_url -%}
-                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                     {% else -%}
-                      and {{author.first}} {{author.last}}
+                      {{author.first}} {{author.last}}
                     {%- endif -%}
                   {%- endif -%}
                 {%- endunless -%}
