@@ -85,14 +85,14 @@
 "Zhang":
   - firstname: ["Zhijun"]
     url: https://scholar.google.com/citations?user=SXDjIJkAAAAJ&hl=en
-
-"Zhang":  
   - firstname: ["Liangjun"]
-    url: https://www.cs.unc.edu/~zlj/
-
-"Zhang":    
+    url: https://www.cs.unc.edu/~zlj/  
   - firstname: ["Yuyou"]
     url: https://zhangyuyou-10.github.io/
+  - firstname: ["Songan"]
+    url: https://scholar.google.com/citations?user=YnSPFY8AAAAJ&hl=en
+  - firstname: ["Zeqing"]
+    url: https://benjizhang.github.io/
 
 "Zhang*":
   - firstname: ["Zhijun"]
@@ -101,6 +101,10 @@
 "Kong":
   - firstname: ["Lingdong"]
     url: http://ldkong.com/
+
+"Jin":
+  - firstname: ["Shiyu"]
+    url: https://scholar.google.com/citations?user=GdYgso8AAAAJ&hl=en
 
 "Chen":
   - firstname: ["Letian"]
@@ -113,10 +117,6 @@
 "Li":
   - firstname: ["Zhaoxin"]
     url: https://core-robotics.gatech.edu/people/zhaoxin-li/
-
-"Zhang":
-  - firstname: ["Songan"]
-    url: https://scholar.google.com/citations?user=YnSPFY8AAAAJ&hl=en
 
 "Tseng":
   - firstname: ["Hongtei Eric"]
