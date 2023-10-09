@@ -34,10 +34,6 @@
   - firstname: ["Henry", "H."]
     url: http://www.columbia.edu/~khl2114/
 
-"Li":
-  - firstname: ["Bo", "B."]
-    url: https://aisecure.github.io/
-
 "Paleja":
   - firstname: ["Rohan", "Rohan", "R."]
     url: https://rohanpaleja.com/
@@ -120,9 +116,15 @@
   - firstname: ["Letian"]
     url: http://www.letianchen.me/
 
+"Sun*":
+  - firstname: ["Lingfeng"]
+    url: https://lingfeng.moe/
+
 "Li":
   - firstname: ["Zhaoxin"]
     url: https://core-robotics.gatech.edu/people/zhaoxin-li/
+  - firstname: ["Bo", "B."]
+    url: https://aisecure.github.io/
 
 "Tseng":
   - firstname: ["Hongtei Eric"]
