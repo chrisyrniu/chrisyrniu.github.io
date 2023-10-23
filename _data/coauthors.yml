@@ -18,7 +18,15 @@
   - firstname: ["Mengdi", "M."]
     url: https://mxu34.github.io/
 
+"Xu*":
+  - firstname: ["Mengdi", "M."]
+    url: https://mxu34.github.io/
+
 "Huang":
+  - firstname: ["Peide", "P."]
+    url: https://peidehuang.github.io/
+
+"Huang*":
   - firstname: ["Peide", "P."]
     url: https://peidehuang.github.io/
 
@@ -89,6 +97,8 @@
     url: https://scholar.google.com/citations?user=YnSPFY8AAAAJ&hl=en
   - firstname: ["Zeqing"]
     url: https://benjizhang.github.io/
+  - firstname: ["Tingnan"]
+    url: https://research.google/people/TingnanZhang/
 
 "Zhang*":
   - firstname: ["Zhijun"]
@@ -137,3 +147,15 @@
 "Nageshrao":
   - firstname: ["Subramanya Prasad"]
     url: https://scholar.google.com/citations?user=ujb09agAAAAJ&hl=en
+
+"Yu":
+  - firstname: ["Wenhao"]
+    url: https://wenhaoyu.weebly.com/
+
+"Xia":
+  - firstname: ["Fei"]
+    url: https://fxia22.github.io/
+
+"Tan":
+  - firstname: ["Jie"]
+    url: https://www.jie-tan.net/
