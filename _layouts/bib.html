@@ -228,6 +228,12 @@
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
           {%- endif %}
+          {%- if entry.media_0 %}
+            <a href="{{ entry.media_0 }}" class="btn btn-sm z-depth-0" role="button">Media (TechXplore)</a>
+          {%- endif %}
+          {%- if entry.media_1 %}
+            <a href="{{ entry.media_1 }}" class="btn btn-sm z-depth-0" role="button">Media (中文)</a>
+          {%- endif %}
           </div>
 
           {% if entry.abstract -%}
