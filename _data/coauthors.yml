@@ -1,6 +1,8 @@
 "Liu":
   - firstname: ["Xingyu"]
     url: https://xingyul.github.io/
+  - firstname: ["Zuxin"]
+    url: https://zuxin.me/
 
 "Hu":
   - firstname: ["Hanjiang"]
@@ -37,6 +39,10 @@
 "Zhao":
   - firstname: ["Ding", "D."]
     url: https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html
+
+"Ding":
+  - firstname: ["Wenhao"]
+    url: https://wenhao.pub/
 
 "Lam":
   - firstname: ["Henry", "H."]
@@ -159,3 +165,7 @@
 "Tan":
   - firstname: ["Jie"]
     url: https://www.jie-tan.net/
+
+"Lin":
+  - firstname: ["Haohong"]
+    url: https://hhlin.info/
