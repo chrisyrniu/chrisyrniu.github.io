@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a second-year PhD candidate at [CMU Safe AI Lab](https://safeai-lab.github.io/), advised by [Prof. Ding Zhao](https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html). Previously, I received an M.S. in Electrical and Computer Engineering at [Georgia Tech](https://www.gatech.edu/), working with [Prof. Matthew Gombolay](https://sites.gatech.edu/matthew-gombolay/). Before that, I received a B.E. in Intelligence Science and Technology at [South China University of Technology](https://www.scut.edu.cn/en/). I also spent wonderful time as a research intern at [Baidu Research](http://research.baidu.com/) with [Dr. Liangjun Zhang](https://www.cs.unc.edu/~zlj/), and at [Berkeley](https://www.berkeley.edu/) with [Prof. Masayoshi Tomizuka](https://me.berkeley.edu/people/masayoshi-tomizuka/).
 
-My research goal is to build methodologies for collaborative, interpretable, and reliable intelligent robotic systems that can interact with complex environments (including humans) around them. Thus, my research interest lies at the intersection of robotics and machine learning, and their applications in multi-agent coordination, autonomous driving, and human-robot interaction. 
+My research interest lies at the intersection of robotics, machine learning, and multi-agent systems. My research goal is to build methodologies for collaborative, interpretable, and reliable intelligent robotic systems that can interact with complex environments around them. 
 
 My Chinese name is 牛雅儒 (Niu-Ya-Ru), where my first name (雅儒) means a scholar with elegance in [ancient Chinese](https://baike.baidu.hk/item/%E9%9B%85%E5%84%92/5817490).
 
