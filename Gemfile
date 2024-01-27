@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem "github-pages"
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
@@ -22,4 +23,3 @@ group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
-gem "github-pages", group: :jekyll_plugins
