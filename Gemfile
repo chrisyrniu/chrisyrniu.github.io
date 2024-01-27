@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem "github-pages"
+    gem 'uri', '0.10.0'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
