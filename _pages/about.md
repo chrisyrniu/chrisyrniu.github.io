@@ -6,7 +6,7 @@ permalink: /
 # subtitle: yarun@andrew.cmu.edu
 profile:
   align: right
-  image: yaru.jpg
+  image: yaru.png
   address: >
     <p align="center"><a href="mailto:yarun@andrew.cmu.edu">yarun@andrew.cmu.edu</a></p>
     <p align="center">5000 Forbes Avenue</p>
