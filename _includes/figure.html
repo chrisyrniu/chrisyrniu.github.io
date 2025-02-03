@@ -4,12 +4,11 @@
 
   <picture>
     {% for i in site.imagemagick.widths -%}
-      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
+      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" type="image/webp" />
     {% endfor -%}
-
-    <!-- Fallback to the original file -->
-    <img {% if include.class %}class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url }}" {% if include.alt %}alt="{{ include.alt }}"{% endif %} {% if include.title %}title="{{ include.title }}"{% endif %} {% if include.zoomable %}data-zoomable{% endif %} />
-
+  
+    <!-- Always provide the original image as a fallback -->
+    <img src="{{ include.path | relative_url }}" class="{{ include.class }}" alt="{{ include.alt }}">
   </picture>
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
