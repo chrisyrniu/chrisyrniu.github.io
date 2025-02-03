@@ -1,12 +1,14 @@
-{%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
-
 <figure>
   <picture>
-    <!-- WebP version -->
-    <source srcset="{{ include.path | replace: '.png', '.webp' | replace: '.jpg', '.webp' | prepend: site.baseurl }}" type="image/webp">
+    <!-- Only use WebP if the file exists -->
+    {% assign webp_path = include.path | replace: '.png', '.webp' | replace: '.jpg', '.webp' %}
+    <source srcset="{{ webp_path | prepend: site.baseurl }}" type="image/webp">
     
     <!-- Fallback to original PNG/JPG -->
-    <img src="{{ include.path | prepend: site.baseurl }}" class="img-fluid z-dept-1 rounded" alt="{{ include.alt }}">
+    <img 
+      src="{{ include.path | prepend: site.baseurl }}" 
+      class="img-fluid z-dept-1 rounded" 
+      alt="{{ include.alt }}">
   </picture>
 
   {%- if include.caption -%}
