@@ -1,11 +1,17 @@
-<figure>
-  <img 
-    src="{{ include.path | prepend: site.baseurl }}" 
-    class="img-fluid z-dept-1 rounded" 
-    alt="{{ include.alt }}" 
-  />
+{%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
-  {%- if include.caption -%}
-    <figcaption class="caption">{{ include.caption }}</figcaption>
-  {%- endif %}
+<figure>
+
+  <picture>
+    {% for i in site.imagemagick.widths -%}
+      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
+    {% endfor -%}
+
+    <!-- Fallback to the original file -->
+    <img src="{{ include.path | relative_url }}" class="{{ include.class }}" alt="{{ include.alt }}">
+
+  </picture>
+
+  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
+
 </figure>
