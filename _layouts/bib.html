@@ -4,7 +4,8 @@
       <div class="row">
         <div class="col-sm-3">
           {% if entry.abbr %}
-            <img class="img-fluid" src="{{ site.data.pubimage[entry.abbr] | prepend: '/assets/img/' | relative_url }}">
+            <img class="img-fluid" style="border-radius: 12px; overflow: hidden;" 
+                 src="{{ site.data.pubimage[entry.abbr] | prepend: '/assets/img/' | relative_url }}">
           {% endif %}
         </div>
 
