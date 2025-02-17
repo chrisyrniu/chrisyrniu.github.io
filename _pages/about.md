@@ -9,7 +9,7 @@ profile:
   image: yaru.png
   address: >
     <p align="center"><a href="mailto:yarun@andrew.cmu.edu">yarun@andrew.cmu.edu</a></p>
-    <p align="center">5000 Forbes Avenue</p>
+    <p align="center">4805 Frew St</p>
     <p align="center">Pittsburgh, PA 15213</p>
 
 news: true  # includes a list of news items
