@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-06-30
+date: 2025-01-31
 inline: true
 ---
 
-[LocoMan](https://linchangyi1.github.io/LocoMan/) is accepted to [IROS 2024](https://iros2024-abudhabi.org/).
+[MAPush](https://collaborative-mapush.github.io/) is accepted to [ICRA 2025](https://2025.ieee-icra.org/).
