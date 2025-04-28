@@ -133,10 +133,16 @@
 "Chen":
   - firstname: ["Letian"]
     url: http://www.letianchen.me/
+  - firstname: ["Bingqing"]
+    url: https://scholar.google.com/citations?user=LYt_2MgAAAAJ&hl=en
 
 "Chen*":
   - firstname: ["Letian"]
     url: http://www.letianchen.me/
+
+"Francis":
+  - firstname: ["Jonathan"]
+    url: https://jonfranc.com/
 
 "Sun*":
   - firstname: ["Lingfeng"]
@@ -147,6 +153,8 @@
     url: https://core-robotics.gatech.edu/people/zhaoxin-li/
   - firstname: ["Bo", "B."]
     url: https://aisecure.github.io/
+  - firstname: ["Zhenzhen"]
+    url: https://scholar.google.com/citations?user=6LYI6uUAAAAJ&hl=en
 
 "Tseng":
   - firstname: ["Hongtei Eric"]
