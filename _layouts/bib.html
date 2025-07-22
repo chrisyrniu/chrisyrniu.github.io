@@ -223,6 +223,12 @@
           {%- if entry.webpage %}
             <a href="{{ entry.webpage}}" class="btn btn-sm z-depth-0" role="button">Webpage</a>
           {%- endif %}
+          {%- if entry.dataset %}
+            <a href="{{ entry.dataset}}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
+          {%- endif %}
+          {%- if entry.models %}
+            <a href="{{ entry.models}}" class="btn btn-sm z-depth-0" role="button">Models</a>
+          {%- endif %}
           {%- if entry.talk %}
             <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
           {%- endif %}
