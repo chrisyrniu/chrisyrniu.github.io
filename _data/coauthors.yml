@@ -111,6 +111,8 @@
     url: https://benjizhang.github.io/
   - firstname: ["Tingnan"]
     url: https://research.google/people/tingnanzhang/?&
+  - firstname: ["Amy"]
+    url: https://amyzhang.github.io/
 
 "Zhang*":
   - firstname: ["Zhijun"]
@@ -197,3 +199,13 @@
 "Boots":
   - firstname: ["Byron"]
     url: https://homes.cs.washington.edu/~bboots/
+    
+"Lee":
+  - firstname: ["Dongsu"]
+    url: https://dongsuleetech.github.io/
+  - firstname: ["Daehee"]
+    url: https://l2dulgi.github.io/
+
+"Woo":
+  - firstname: [Honguk]
+    url: https://scholar.google.co.kr/citations?user=Gaxjc7UAAAAJ&hl=en
