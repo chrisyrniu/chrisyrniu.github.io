@@ -113,6 +113,8 @@
     url: https://research.google/people/tingnanzhang/?&
   - firstname: ["Amy"]
     url: https://amyzhang.github.io/
+  - firstname: ["Hao"]
+    url: https://haozhang-thu.github.io/
 
 "Zhang*":
   - firstname: ["Zhijun"]
@@ -137,6 +139,8 @@
     url: http://www.letianchen.me/
   - firstname: ["Bingqing"]
     url: https://scholar.google.com/citations?user=LYt_2MgAAAAJ&hl=en
+  - firstname: ["Hongyi"]
+    url: https://hychen-naza.github.io/
 
 "Chen*":
   - firstname: ["Letian"]
@@ -161,10 +165,14 @@
 "Tseng":
   - firstname: ["Hongtei Eric"]
     url: https://www.nae.edu/248787/Dr-Hongtei-E-Tseng
+  - firstname: ["H. Eric"]
+    url: https://www.nae.edu/248787/Dr-Hongtei-E-Tseng
 
 "Wang":
   - firstname: ["Yan"]
     url: https://scholar.google.com/citations?hl=en&user=PCA9jesAAAAJ&view_op=list_works&sortby=pubdate
+  - firstname: ["Liquan"]
+    url: https://lichothu.github.io/
 
 "Nageshrao":
   - firstname: ["Subramanya Prasad"]
@@ -209,3 +217,29 @@
 "Woo":
   - firstname: [Honguk]
     url: https://scholar.google.co.kr/citations?user=Gaxjc7UAAAAJ&hl=en
+
+"Ye":
+  - firstname: [Yufei]
+    url: https://judyye.github.io/
+
+"Bharadhwaj":
+  - firstname: [Homanga]
+  - url: https://homangab.github.io/
+
+"Erickson":
+  - firstname: [Zackory]
+  - url: https://zackory.com/
+
+"Ichnowski":
+  - firstname: [Jeffrey]
+  - url: https://ichnow.ski/
+
+"Jangir":
+  - firstname: [Yash]
+  - url: https://offjangir.github.io/
+
+"Wu":
+  - firstname: [Tiancheng]
+  - url: https://tonybest318.github.io/
+
+  
