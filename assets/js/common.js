@@ -1,9 +1,13 @@
 $(document).ready(function() {
-    $('a.abstract').click(function() {
-        $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
+    $('.pub-link.abstract').click(function() {
+        const panel = $(this).closest('.pub-content').find('.abstract.hidden');
+        panel.toggleClass('open');
+        $(this).attr('aria-expanded', panel.hasClass('open'));
     });
-    $('a.bibtex').click(function() {
-        $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
+    $('.pub-link.bibtex').click(function() {
+        const panel = $(this).closest('.pub-content').find('.bibtex.hidden');
+        panel.toggleClass('open');
+        $(this).attr('aria-expanded', panel.hasClass('open'));
     });
     $('.navbar-nav').find('a').removeClass('waves-effect waves-light');
 });
