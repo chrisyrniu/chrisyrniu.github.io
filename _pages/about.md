@@ -23,14 +23,15 @@ Previously, I received my M.S. in Electrical and Computer Engineering from [Geor
 
 My Chinese name is 牛雅儒 (Niu-Ya-Ru); my given name, 雅儒, means an elegant scholar in [classical Chinese](https://baike.baidu.hk/item/%E9%9B%85%E5%84%92/5817490).
 
-<!-- [CV (May 2022)](https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf)&emsp;/&emsp;[Google Scholar](https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao)&emsp;/&emsp;[Twitter](https://twitter.com/yaru_niu)&emsp;/&emsp;[Github](https://github.com/chrisyrniu)&emsp;/&emsp;[Linkedin](https://www.linkedin.com/in/yaru-niu-2b847b169/) -->
+<!-- [CV (May 2022)](https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf)&emsp;/&emsp;[Google Scholar](https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao)&emsp;/&emsp;[X](https://x.com/yaru_niu)&emsp;/&emsp;[Github](https://github.com/chrisyrniu)&emsp;/&emsp;[Linkedin](https://www.linkedin.com/in/yaru-niu-2b847b169/) -->
 
-<p align="center"><a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">CV</a>&emsp;/
-&emsp;<a href="https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao">Google Scholar</a>&emsp;/
-&emsp;<a href="https://twitter.com/yaru_niu">Twitter</a>&emsp;/
-&emsp;<a href="https://github.com/chrisyrniu">Github</a>&emsp;/
-&emsp;<a href="https://www.linkedin.com/in/yaru-niu-2b847b169/">Linkedin</a>
-</p>
+<nav class="inline-links profile-links" aria-label="Profile links">
+  <a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">CV</a>
+  <a href="https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao">Google Scholar</a>
+  <a href="https://x.com/yaru_niu">X</a>
+  <a href="https://github.com/chrisyrniu">Github</a>
+  <a href="https://www.linkedin.com/in/yaru-niu-2b847b169/">Linkedin</a>
+</nav>
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
