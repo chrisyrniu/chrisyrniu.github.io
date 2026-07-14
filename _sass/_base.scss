@@ -331,7 +331,7 @@ body.page-publications .post-title {
     }
   }
 
-  > * + * {
+  > :not(:first-child) {
     position: relative;
     margin-left: 0.6rem;
     padding-left: 0.6rem;
@@ -680,7 +680,7 @@ footer.sticky-bottom {
       font-size: 0.8rem;
     }
 
-    > * + * {
+    > :not(:first-child) {
       margin-left: 0.5rem;
       padding-left: 0.5rem;
     }
