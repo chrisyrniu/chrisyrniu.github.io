@@ -26,11 +26,11 @@ My Chinese name is 牛雅儒 (Niu-Ya-Ru); my given name, 雅儒, means an elegan
 <!-- [CV (May 2022)](https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf)&emsp;/&emsp;[Google Scholar](https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao)&emsp;/&emsp;[X](https://x.com/yaru_niu)&emsp;/&emsp;[Github](https://github.com/chrisyrniu)&emsp;/&emsp;[Linkedin](https://www.linkedin.com/in/yaru-niu-2b847b169/) -->
 
 <nav class="inline-links profile-links" aria-label="Profile links">
-  <a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">CV</a>
-  <a href="https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao">Google Scholar</a>
-  <a href="https://x.com/yaru_niu">X</a>
-  <a href="https://github.com/chrisyrniu">Github</a>
-  <a href="https://www.linkedin.com/in/yaru-niu-2b847b169/">Linkedin</a>
+  <a href="https://chrisyrniu.github.io/assets/pdf/cv_yaru_niu.pdf">cv</a>
+  <a href="https://scholar.google.com/citations?user=7yn5-VEAAAAJ&hl=en&oi=ao">google scholar</a>
+  <a href="https://x.com/yaru_niu">x</a>
+  <a href="https://github.com/chrisyrniu">github</a>
+  <a href="https://www.linkedin.com/in/yaru-niu-2b847b169/">linkedin</a>
 </nav>
 
 
