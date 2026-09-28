@@ -5,6 +5,8 @@
     url: https://zuxin.me/
   - firstname: ["Shiqi"]
     url: https://shiqiliu-67.github.io/
+  - firstname: ["Changliu"]
+    url: https://www.ri.cmu.edu/ri-faculty/changliu-liu/
 
 "Hu":
   - firstname: ["Hanjiang"]
@@ -13,6 +15,12 @@
 "Yao":
   - firstname: ["Yihang", "Y."]
     url: https://yihangyao.github.io/
+  - firstname: ["Changwei"]
+    url: https://www.chad-yao.com/
+
+"Yao*":
+  - firstname: ["Changwei"]
+    url: https://www.chad-yao.com/
 
 "Xie":
   - firstname: ["Shaoyuan"]
@@ -115,6 +123,8 @@
     url: https://amyzhang.github.io/
   - firstname: ["Hao"]
     url: https://haozhang-thu.github.io/
+  - firstname: ["Heng"]
+    url: https://alfredo-pearson.github.io/
 
 "Zhang*":
   - firstname: ["Zhijun"]
@@ -141,10 +151,14 @@
     url: https://scholar.google.com/citations?user=LYt_2MgAAAAJ&hl=en
   - firstname: ["Hongyi"]
     url: https://hychen-naza.github.io/
+  - firstname: ["Binghong"]
+    url: https://wudicbh.github.io/
 
 "Chen*":
   - firstname: ["Letian"]
     url: http://www.letianchen.me/
+  - firstname: ["Binghong"]
+    url: https://wudicbh.github.io/
 
 "Francis":
   - firstname: ["Jonathan"]
@@ -161,11 +175,17 @@
     url: https://aisecure.github.io/
   - firstname: ["Zhenzhen"]
     url: https://scholar.google.com/citations?user=6LYI6uUAAAAJ&hl=en
+  - firstname: ["Shangtao"]
+    url: https://shangtaoli.github.io/
+
+"Li*":
+  - firstname: ["Shangtao"]
+    url: https://shangtaoli.github.io/
 
 "Tseng":
   - firstname: ["Hongtei Eric"]
     url: https://www.nae.edu/248787/Dr-Hongtei-E-Tseng
-  - firstname: ["H. Eric"]
+  - firstname: ["H. Eric", "Eric H."]
     url: https://www.nae.edu/248787/Dr-Hongtei-E-Tseng
 
 "Wang":
@@ -247,5 +267,17 @@
     url: https://www.shuai-zhou.com/
   
 "Senthilkumaran":
-  - firstname: [Revanth]
+  - firstname: [Revanth, "Revanth Krishna"]
     url: https://revanthsenthil.github.io/
+
+"Mao":
+  - firstname: ["Yuemin"]
+    url: https://yueminm.github.io/
+
+"Fang":
+  - firstname: ["Zhenlong"]
+    url: https://zhenlong0808.github.io/
+
+"Ching":
+  - firstname: ["Kalie"]
+    url: https://kalieching.github.io/
