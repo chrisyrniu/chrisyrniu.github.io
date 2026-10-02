@@ -115,8 +115,8 @@ collections:
     output: false
     permalink: /projects/:path/
 
-news_limit: 10
 news_visible: 5  # items shown before "Show more"
+news_hide_before: 2010  # news dated before this year are hidden
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
