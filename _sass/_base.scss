@@ -136,10 +136,36 @@ body.page-publications .post-title {
     color: var(--global-text-color-light);
   }
 
+  .table {
+    margin-bottom: 0.25rem;
+  }
+
   .table td,
   .table th {
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+  }
+
+  .news-toggle {
+    margin-left: 0.3rem;
+  }
+}
+
+// Award labels
+
+.award {
+  color: var(--global-text-color);
+  font-weight: 500;
+  white-space: nowrap;
+
+  &::before {
+    content: "\f091";
+    display: inline-block;
+    margin-right: 0.3em;
+    color: #B8860B;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
   }
 }
 

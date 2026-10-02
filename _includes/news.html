@@ -5,8 +5,9 @@
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%} 
+              {%- assign news_visible = site.news_visible | default: 5 -%}
               {% for item in news limit: site.news_limit %} 
-                <tr>
+                <tr{% if forloop.index > news_visible %} class="news-more" hidden{% endif %}>
                   <th scope="row" style="width:11%">{{ item.date | date: "%b, %Y" }}</th>
                   <td>
                     {% if item.inline -%} 
@@ -19,6 +20,13 @@
               {%- endfor %} 
               </table>
             </div>
+            {%- assign news_shown = news.size -%}
+            {%- if site.news_limit and site.news_limit < news_shown -%}{%- assign news_shown = site.news_limit -%}{%- endif -%}
+            {%- if news_shown > news_visible %}
+            <div class="inline-links">
+              <button type="button" class="news-toggle" aria-expanded="false">Show more</button>
+            </div>
+            {%- endif %}
           {%- else -%} 
             <p>No news so far...</p>
           {%- endif %} 
